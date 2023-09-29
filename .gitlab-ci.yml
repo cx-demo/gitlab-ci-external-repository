@@ -1,0 +1,6 @@
+stages:
+  - .pre
+
+echo_env:
+  stage: .pre
+  script: export
